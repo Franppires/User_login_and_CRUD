@@ -9,10 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-header': 'linear-gradient(135deg, #5135CE, #9684B7)',
+
+        // 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        // 'gradient-conic':
+        //   'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        customGreen: '#66BAA8',
+        curstomPurple: '#5135CE'
+      },
+      // fontFamily: {
+      //   sans: ['var(--font-family-logo)']
+      // }
     },
   },
   plugins: [],
