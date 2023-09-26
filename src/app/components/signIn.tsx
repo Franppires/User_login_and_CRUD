@@ -14,7 +14,7 @@ export const SignIn = () => {
           Google
       </button>
       <button className="rounded p-2 bg-customLightPurple flex justify-center w-96 " onClick={() => signIn("github")} >
-        <img src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="Logo Githib" className="pr-2" width={35}/>
+        <Image src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="Logo Githib" className="pr-2" width={35}/>
           Github
       </button>
     </div>

@@ -8,7 +8,7 @@ export default function Login() {
       <div className="flex min-h-screen">
         {/* Coluna da direita com botão de login social */}
         <section className="flex flex-col w-1/2 h-screen pl-4 justify-center text-left gap-4">
-          <h2 className='text-5xl'>"Bem-vindo(a) de volta!</h2>
+          <h2 className='text-5xl'>Bem-vindo(a) de volta!</h2>
           <p className="text-2xl">É ótimo tê-lo aqui novamente.</p>  
           <p className="text-2xl">Por favor, faça login para acessar sua conta e continuar aproveitando todos os recursos e serviços que temos a oferecer.</p>  
           <p className="text-2xl">Se você é novo por aqui, fique à vontade para se registrar e fazer parte da nossa comunidade.</p>  
