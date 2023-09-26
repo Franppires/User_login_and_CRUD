@@ -17,7 +17,10 @@ const config: Config = {
       },
       colors: {
         customGreen: '#66BAA8',
-        curstomPurple: '#5135CE'
+        curstomDarkPurple: '#5135CE',
+        customLightPurple: '#4526AA',
+        customWhitePurple: '#F9EAFF', 
+        customBackgroundPurple: '#806DD3'
       },
       // fontFamily: {
       //   sans: ['var(--font-family-logo)']

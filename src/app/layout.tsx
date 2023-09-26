@@ -1,25 +1,17 @@
+// RootLayout.jsx
 
-import { UserProvider } from '@/context/users/users'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, 
-  // Kaushan_Script 
-} from 'next/font/google'
-import { Providers } from '@/providers/providers'
+import { Inter } from 'next/font/google'
 import Header from './header'
+import { Provider } from './provider/provider'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
-// export const kaushan = Kaushan_Script({ 
-//   subsets: ['latin'],
-//   variable: '--font-kaushan',
-//   weight: ['400']  
-  
-// })
-
 export const metadata: Metadata = {
-  title: 'User Login and Crud',
-  description: 'User Login and Crud',
+  title: 'Login de Usuário e CRUD',
+  description: 'Login de Usuário e CRUD',
 }
 
 export default function RootLayout({
@@ -27,15 +19,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        <Providers>
-          <main>
+    <html lang="pt" className={inter.className}>
+      <body className='bg-gradient-header '>
+        <Provider>
+          <Header />
+          <main className="w-full max-w-screen-xl pt-8  md:flex-row justify-center items-center mx-auto">
             {children}
           </main>
-        </Providers>
+        </Provider>
       </body>
     </html>
   )

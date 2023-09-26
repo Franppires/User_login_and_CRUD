@@ -1,36 +1,22 @@
 
 // src/components/Header.jsx
 import React from 'react';
-import kaushan from './layout'
+import Link from 'next/link';
+import { SignOut } from './components/signOut';
 
 
 const Header = () => {
-
   return (
-    <header className="bg-gradient-header text-white p-4">
-    <div className="container mx-auto flex justify-between items-center">
-      <h1 className="text-3xl font-bold tracking-tight cursor-pointer">
-        <a >NexusFlow</a>
-      </h1>
-        <nav>
-          <ul className="flex space-x-4">
-            <li>
-                <a className="cursor-pointer bg-customGreen hover:bg-curstomPurple transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center justify-center p-3 rounded-3xl text-lg">Login</a>
-            </li>
-            <li>
-                <a className="cursor-pointer bg-customGreen hover:bg-curstomPurple transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center justify-center p-3 rounded-3xl text-lg             ">Formulário</a>
-            </li>
-            {/* <li>
-              <button
-                className="cursor-pointer hover:text-blue-300"
-
-              >
-                Logout
-              </button>
-            </li> */}
+     <header className="text-white w-full h-20 flex items-center bg-gradient-header fixed">  
+      <nav className='w-full flex items-center justify-between m-auto max-w-screen-xl p-4'>
+        <Link href='/' className='text-4xl'>NexusFlow</Link>
+        <ul className="flex items-center gap-5">
+            <li><Link href='/' className="cursor-pointer bg-customGreen hover:bg-curstomDarkPurple transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center justify-center p-2 rounded-3xl text-lg">Home</Link></li>
+            <li><Link href="/public" className="cursor-pointer bg-customGreen hover:bg-curstomDarkPurple transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center justify-center p-2 rounded-3xl text-lg">Login</Link> </li>
+            {/* <li><Link href='/private'className="cursor-pointer bg-customGreen hover:bg-curstomDarkPurple transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex items-center justify-center p-2 rounded-3xl text-lg">Formulário</Link></li> */}
+            <li><SignOut /></li>
           </ul>
-        </nav>
-      </div>
+      </nav>
     </header>
   );
 };
