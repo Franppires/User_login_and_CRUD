@@ -24,7 +24,7 @@ export default function Home() {
           <div className="flex w-full p-4 mt-4 mr-2 ">
             <Image src="/mariana.png" alt="Foto Mariana" />
             <div className="flex flex-col justify-center gap-5 p-2 ml-3">
-              <p>"A plataforma é incrivelmente fácil de usar! Encontrei tudo o que precisava rapidamente. Além disso, o formulário de cadastro foi simples e direto ao ponto, tornando o processo extremamente conveniente."</p>
+              <p>A plataforma é incrivelmente fácil de usar! Encontrei tudo o que precisava rapidamente. Além disso, o formulário de cadastro foi simples e direto ao ponto, tornando o processo extremamente conveniente.</p>
               <p>- Mariana L.</p>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="flex w-full p-4 mt-4 ">
             <Image src="/pedro.png" alt="Foto Pedro" />
             <div className="flex flex-col justify-center gap-5 p-2 ml-3">
-              <p>"O atendimento ao cliente superou minhas expectativas. Tive algumas dúvidas sobre o preenchimento do formulário e fui respondido quase que imediatamente. Fiquei impressionado com a atenção e dedicação da equipe."</p>
+              <p>O atendimento ao cliente superou minhas expectativas. Tive algumas dúvidas sobre o preenchimento do formulário e fui respondido quase que imediatamente. Fiquei impressionado com a atenção e dedicação da equipe.</p>
               <p>- Pedro D.</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
           <div className="flex w-full p-4 mt-4 ">
             <Image src="/andre.png" alt="Foto Andre" />
             <div  className="flex flex-col justify-center gap-5 p-2 ml-3">
-              <p>"A plataforma é muito intuitiva, mesmo para quem não é muito familiarizado com tecnologia. Preencher o formulário de cadastro foi tranquilo, e saber que minha privacidade está sendo respeitada é um grande diferencial."</p>
+              <p>A plataforma é muito intuitiva, mesmo para quem não é muito familiarizado com tecnologia. Preencher o formulário de cadastro foi tranquilo, e saber que minha privacidade está sendo respeitada é um grande diferencial.</p>
               <p> - Andre P.</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="flex w-full p-4 mt-4 ">
             <Image src="/camila.png" alt="Foto Camila" />
             <div className="flex flex-col justify-center gap-5 p-2 ml-3">
-              <p>"Estou impressionado com a eficiência do atendimento. Tive um problema ao preencher o formulário, mas a equipe de suporte agiu prontamente e me guiou passo a passo até a resolução. A plataforma e o atendimento são de primeira classe!"</p>
+              <p>Estou impressionado com a eficiência do atendimento. Tive um problema ao preencher o formulário, mas a equipe de suporte agiu prontamente e me guiou passo a passo até a resolução. A plataforma e o atendimento são de primeira classe!</p>
               <p> - Camila M.</p>
             </div>
           </div>
